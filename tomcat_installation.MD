@@ -5,7 +5,8 @@
 1. EC2 instance with Java v1.8.x 
 
 ### Install Apache Tomcat
-Go to below url for getting latest image
+Go to below url for getting latest image.
+
 Download tomcat packages from  https://tomcat.apache.org/download-80.cgi onto /opt on EC2 instance
 ```sh 
   # create tomcat directory
