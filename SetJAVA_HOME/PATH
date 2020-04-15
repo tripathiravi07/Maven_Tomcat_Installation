@@ -1,0 +1,17 @@
+$ file $(which java)
+/usr/bin/java: symbolic link to `/etc/alternatives/java'
+
+
+$ file /etc/alternatives/java
+/etc/alternatives/java: symbolic link to `/usr/lib/jvm/java-8-openjdk.x86_64/bin/java'
+
+$ file /usr/lib/jvm/java-8-openjdk.x86_64/bin/java
+/usr/lib/jvm/java-8-openjdk.x86_64/bin/java: ELF 64-bit LSB executable..
+
+This means that the JAVA is installed perfectly, Now go ahead and copy the path of above output
+
+/usr/lib/jvm/jdk-1.8.0-openjdk.x86_64/bin
+
+And if OutPut is /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.amzn2.0.1.x86_64/jre/bin/java
+Copy below only
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.amzn2.0.1.x86_64/jre
